@@ -2,7 +2,7 @@
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner">
       <div class="md-footer-copyright">
-        <span>Last updated: <span id="kb-updated" data-ts="{{ build_date | d('') }}">{{ build_date }}</span></span>
+        <span>Last updated: <span id="kb-updated"></span></span>
       </div>
     </div>
   </div>
@@ -12,16 +12,9 @@
 (function(){
   var el = document.getElementById('kb-updated');
   if (!el) return;
-  var s = el.getAttribute('data-ts') || el.textContent;
-  if (!s) return;
-  var d = new Date(s);
-  if (isNaN(d)) { el.textContent = s; return; }
+  var d = new Date(document.lastModified);
   function pad(n){ return n.toString().padStart(2,'0'); }
-  var h = d.getHours();
-  var ampm = h >= 12 ? 'PM' : 'AM';
-  h = h % 12; if (h === 0) h = 12;
-  var formatted = pad(d.getMonth()+1) + '/' + pad(d.getDate()) + '/' + d.getFullYear()
-                + ' ' + h + ':' + pad(d.getMinutes()) + ' ' + ampm;
-  el.textContent = formatted;
+  var h = d.getHours(), ampm = h>=12?'PM':'AM'; h = h%12||12;
+  el.textContent = pad(d.getMonth()+1)+'/'+pad(d.getDate())+'/'+d.getFullYear()+' '+h+':'+pad(d.getMinutes())+' '+ampm;
 })();
 </script>
