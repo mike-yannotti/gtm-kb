@@ -1,12 +1,11 @@
-# Pain Points Overview
+# Pain Points
 
-Use this catalog to jump into the most common customer challenges. Each section links to technical mappings and solution patterns.
+Select a pain point to drill down. The left menu will expand as you navigate.
 
-## Catalog
-- [Cost Optimization](cost-optimization/): Reduce spend & complexity.
-- [Performance & Scale](performance-scale/): Throughput, latency, growth.
-- [Resiliency & Ransomware](resiliency-ransomware/): RPO/RTO, immutability.
-- [Complexity & Ops Automation](complexity-ops/): Standardize runbooks & automation.
-- [Cloud / Hybrid / Edge](cloud-hybrid-edge/): Right-place workloads & data.
-- [Security & Compliance](security-compliance/): Controls, audit, zero trust.
-- [Vendor Lock-In & Lifecycle](vendor-lockin-lifecycle/): Portability & refresh planning.
+- [Cost Optimization](cost-optimization/)
+- [Performance & Scale](performance-scale/)
+- [Resiliency & Ransomware](resiliency-ransomware/)
+- [Complexity & Ops Automation](complexity-ops/)
+- [Cloud / Hybrid / Edge](cloud-hybrid-edge/)
+- [Security & Compliance](security-compliance/)
+- [Vendor Lock-In & Lifecycle](vendor-lockin-lifecycle/)

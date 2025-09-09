@@ -18,11 +18,11 @@ theme:
         icon: material/weather-sunny
         name: Switch to light mode
   features:
-    - navigation.tabs
-    - navigation.sections
-    - navigation.top
-    - navigation.indexes
-    - toc.integrate
+    - navigation.tabs           # shows top tabs for top-level items only
+    - navigation.top            # back-to-top button
+    - navigation.sections       # tidy section headings in left nav
+    - navigation.indexes        # section headers are clickable (landing pages)
+    - toc.integrate             # page ToC integrated into left sidebar
     - content.code.copy
 
 markdown_extensions:
@@ -46,49 +46,4 @@ extra_css:
 nav:
   - Home: index.md
   - Pain Points: pain-points/index.md
-  - Pain Points Catalog:
-      - Cost Optimization: pain-points/cost-optimization/index.md
-      - Performance & Scale: pain-points/performance-scale/index.md
-      - Resiliency & Ransomware: pain-points/resiliency-ransomware/index.md
-      - Complexity & Ops Automation: pain-points/complexity-ops/index.md
-      - Cloud / Hybrid / Edge: pain-points/cloud-hybrid-edge/index.md
-      - Security & Compliance: pain-points/security-compliance/index.md
-      - Vendor Lock-In & Lifecycle: pain-points/vendor-lockin-lifecycle/index.md
   - Technical: technical/index.md
-  - Domains:
-      - Compute: technical/compute/index.md
-      - Block Storage: technical/block-storage/index.md
-      - File Storage: technical/file-storage/index.md
-      - Object Storage: technical/object-storage/index.md
-      - Backup: technical/backup/index.md
-      - Networking: technical/networking/index.md
-      - Firewall: technical/firewall/index.md
-  - Vendors (Compute):
-      - Dell (Rank 1): technical/compute/dell/index.md
-      - Cisco (Rank 2): technical/compute/cisco/index.md
-      - HPE (Rank 3): technical/compute/hpe/index.md
-  - Vendors (Block Storage):
-      - Dell (Rank 1): technical/block-storage/dell/index.md
-      - Pure (Rank 2): technical/block-storage/pure/index.md
-  - Vendors (File Storage):
-      - Dell (Rank 1): technical/file-storage/dell/index.md
-      - NetApp (Rank 2): technical/file-storage/netapp/index.md
-  - Vendors (Object Storage):
-      - Dell (Rank 1): technical/object-storage/dell/index.md
-      - NetApp (Rank 2): technical/object-storage/netapp/index.md
-      - Pure (Rank 3): technical/object-storage/pure/index.md
-  - Vendors (Backup):
-      - Rubrik (Rank 1): technical/backup/rubrik/index.md
-      - Dell (Rank 2): technical/backup/dell/index.md
-      - Commvault (Rank 3): technical/backup/commvault/index.md
-      - Cohesity (Rank 4): technical/backup/cohesity/index.md
-      - Veeam (Rank 5): technical/backup/veeam/index.md
-  - Vendors (Networking):
-      - Dell (Rank 1): technical/networking/dell/index.md
-      - Fortinet (Rank 2): technical/networking/fortinet/index.md
-      - Cisco (Rank 3): technical/networking/cisco/index.md
-      - HPE-Aruba-Juniper (Rank 4): technical/networking/hpe-aruba-juniper/index.md
-      - Palo Alto (Rank 5): technical/networking/palo-alto/index.md
-  - Vendors (Firewall):
-      - Cisco (Rank 1): technical/firewall/cisco/index.md
-      - FortiGate (Rank 2): technical/firewall/fortigate/index.md

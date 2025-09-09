@@ -1,21 +1,11 @@
-# Technical Overview
+# Pain Points
 
-Use the sections below to navigate by **domain** or jump directly to **vendors**.
+Select a pain point to drill down. The left menu will expand as you navigate.
 
-## Domains
-- [Compute](compute/)
-- [Block Storage](block-storage/)
-- [File Storage](file-storage/)
-- [Object Storage](object-storage/)
-- [Backup](backup/)
-- [Networking](networking/)
-- [Firewall](firewall/)
-
-## Vendors (Shortcuts)
-- Compute: [Dell](compute/dell/), [Cisco](compute/cisco/), [HPE](compute/hpe/)
-- Block: [Dell](block-storage/dell/), [Pure](block-storage/pure/)
-- File: [Dell](file-storage/dell/), [NetApp](file-storage/netapp/)
-- Object: [Dell](object-storage/dell/), [NetApp](object-storage/netapp/), [Pure](object-storage/pure/)
-- Backup: [Rubrik](backup/rubrik/), [Dell](backup/dell/), [Commvault](backup/commvault/), [Cohesity](backup/cohesity/), [Veeam](backup/veeam/)
-- Networking: [Dell](networking/dell/), [Fortinet](networking/fortinet/), [Cisco](networking/cisco/), [HPE-Aruba-Juniper](networking/hpe-aruba-juniper/), [Palo Alto](networking/palo-alto/)
-- Firewall: [Cisco](firewall/cisco/), [FortiGate](firewall/fortigate/)
+- [Cost Optimization](cost-optimization/)
+- [Performance & Scale](performance-scale/)
+- [Resiliency & Ransomware](resiliency-ransomware/)
+- [Complexity & Ops Automation](complexity-ops/)
+- [Cloud / Hybrid / Edge](cloud-hybrid-edge/)
+- [Security & Compliance](security-compliance/)
+- [Vendor Lock-In & Lifecycle](vendor-lockin-lifecycle/)
