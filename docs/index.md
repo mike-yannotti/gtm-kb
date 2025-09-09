@@ -7,25 +7,25 @@ Welcome. Choose a path to start exploring.
   <div class="kb-card">
     <h3>Cost Optimization</h3>
     <p>Reduce spend & complexity.</p>
-    <a class="kb-link" href="pain-points/cost-optimization/index.md">Open</a>
+    <a class="kb-link" href="pain-points/cost-optimization/">Open</a>
   </div>
 
   <div class="kb-card">
     <h3>Performance & Scale</h3>
     <p>Throughput, latency, growth.</p>
-    <a class="kb-link" href="pain-points/performance-scale/index.md">Open</a>
+    <a class="kb-link" href="pain-points/performance-scale/">Open</a>
   </div>
 
   <div class="kb-card">
     <h3>Resiliency & Ransomware</h3>
     <p>RPO/RTO, immutability.</p>
-    <a class="kb-link" href="pain-points/resiliency-ransomware/index.md">Open</a>
+    <a class="kb-link" href="pain-points/resiliency-ransomware/">Open</a>
   </div>
 
   <div class="kb-card">
     <h3>Technical</h3>
     <p>Domains → Vendors (ranked).</p>
-    <a class="kb-link" href="technical/compute/index.md">Browse</a>
+    <a class="kb-link" href="technical/compute/">Browse</a>
   </div>
 
 </div>
