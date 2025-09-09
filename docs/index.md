@@ -1,31 +1,34 @@
 # GTM Knowledge Base
 
-> Choose a path to start exploring.
+Welcome. Choose a path to start exploring.
 
-<div class="grid cards" markdown>
+<div class="kb-grid">
 
-- :material-cash-multiple: **Cost Optimization**  
-  _Reduce spend & complexity._  
-  [:material-arrow-right-bold: Open](pain-points/cost-optimization/index.md)
+  <div class="kb-card">
+    <h3>Cost Optimization</h3>
+    <p>Reduce spend & complexity.</p>
+    <a class="kb-link" href="pain-points/cost-optimization/index.md">Open</a>
+  </div>
 
-- :material-speedometer: **Performance & Scale**  
-  _Throughput, latency, growth._  
-  [:material-arrow-right-bold: Open](pain-points/performance-scale/index.md)
+  <div class="kb-card">
+    <h3>Performance & Scale</h3>
+    <p>Throughput, latency, growth.</p>
+    <a class="kb-link" href="pain-points/performance-scale/index.md">Open</a>
+  </div>
 
-- :material-shield-lock: **Resiliency & Ransomware**  
-  _RPO/RTO, immutability._  
-  [:material-arrow-right-bold: Open](pain-points/resiliency-ransomware/index.md)
+  <div class="kb-card">
+    <h3>Resiliency & Ransomware</h3>
+    <p>RPO/RTO, immutability.</p>
+    <a class="kb-link" href="pain-points/resiliency-ransomware/index.md">Open</a>
+  </div>
 
-- :material-sitemap-outline: **Technical**  
-  _Domains → Vendors (ranked)._  
-  [:material-arrow-right-bold: Browse](technical/compute/index.md)
+  <div class="kb-card">
+    <h3>Technical</h3>
+    <p>Domains → Vendors (ranked).</p>
+    <a class="kb-link" href="technical/compute/index.md">Browse</a>
+  </div>
 
 </div>
-
-## Recently Added
-- Brand colors + UI polish
-- Cards on homepage
-- Strict build validation enabled
 
 ---
 

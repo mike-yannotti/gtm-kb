@@ -1,12 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
 :root {
-  --md-default-primary-color: #19673D; /* Ahead green */
-  --md-default-accent-color: #FFDF39;  /* Ahead yellow */
+  --kb-primary: #009FDC;   /* PANTONE 299 C */
+  --kb-secondary: #1C4CBF; /* PANTONE 2132 C */
+
+  --md-text-font: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+
+  /* Map to Material color variables */
+  --md-primary-fg-color: var(--kb-primary);
+  --md-primary-fg-color--dark: #0089BD;
+  --md-primary-fg-color--light: #3FC0EE;
+  --md-accent-fg-color: var(--kb-secondary);
 }
-.md-content h1 { margin-top: 0.2rem; margin-bottom: 1rem; }
-.md-content h2 { margin-top: 1.2rem; }
+
+.md-content h1 { margin-top: 0.2rem; margin-bottom: 1rem; font-weight: 600; }
+.md-content h2 { margin-top: 1.2rem; font-weight: 600; }
 .md-typeset .admonition { border-radius: 10px; }
-.md-typeset table td { white-space: normal; }
-.md-typeset table tr:nth-child(2n) { background: var(--md-default-bg-color--lighter); }
-.grid.cards .card { border-radius: 12px; border: 2px solid #FFDF39; }
-.md-button--primary { background-color: #FFDF39; color: #19673D; }
-.md-button:hover { filter: brightness(0.95); }
+
+/* Pure HTML grid */
+.kb-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+  margin: 1rem 0 2rem;
+}
+.kb-card {
+  border: 2px solid var(--kb-secondary);
+  border-radius: 14px;
+  padding: 16px;
+  background: var(--md-default-bg-color);
+  box-shadow: 0 2px 8px rgba(0,0,0,.04);
+}
+.kb-card h3 { margin: 0 0 .5rem 0; font-weight: 600; }
+.kb-card p { margin: .25rem 0 .75rem 0; }
+.kb-card a.kb-link {
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid var(--kb-secondary);
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-weight: 600;
+  color: var(--kb-secondary);
+}
+.kb-card a.kb-link:hover { background: var(--kb-secondary); color: white; }
