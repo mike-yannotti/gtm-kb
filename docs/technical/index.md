@@ -1,11 +1,16 @@
-# Pain Points
+# Technical
 
-Select a pain point to drill down. The left menu will expand as you navigate.
+Choose a domain to explore vendors and details. The left menu will expand on click.
 
-- [Cost Optimization](cost-optimization/)
-- [Performance & Scale](performance-scale/)
-- [Resiliency & Ransomware](resiliency-ransomware/)
-- [Complexity & Ops Automation](complexity-ops/)
-- [Cloud / Hybrid / Edge](cloud-hybrid-edge/)
-- [Security & Compliance](security-compliance/)
-- [Vendor Lock-In & Lifecycle](vendor-lockin-lifecycle/)
+## Domains
+- [Compute](compute/)
+- [Block Storage](block-storage/)
+- [File Storage](file-storage/)
+- [Object Storage](object-storage/)
+- [Backup](backup/)
+- [Networking](networking/)
+- [Firewall](firewall/)
+
+---
+
+> Looking for business challenges? Go to the [Pain Points catalog](../pain-points/).
