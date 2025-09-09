@@ -1,0 +1,12 @@
+:root {
+  --md-default-primary-color: #19673D; /* Ahead green */
+  --md-default-accent-color: #FFDF39;  /* Ahead yellow */
+}
+.md-content h1 { margin-top: 0.2rem; margin-bottom: 1rem; }
+.md-content h2 { margin-top: 1.2rem; }
+.md-typeset .admonition { border-radius: 10px; }
+.md-typeset table td { white-space: normal; }
+.md-typeset table tr:nth-child(2n) { background: var(--md-default-bg-color--lighter); }
+.grid.cards .card { border-radius: 12px; border: 2px solid #FFDF39; }
+.md-button--primary { background-color: #FFDF39; color: #19673D; }
+.md-button:hover { filter: brightness(0.95); }
